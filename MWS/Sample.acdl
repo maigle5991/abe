@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="Sample" displayName="Sample" runtimeVersion="10.1.0.0000-0273" targetNamespace="http://namespaces.softwareag.com/webMethods/MWS" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <implementation.generic type="war"/>
+    <buildInfo name="build_timestamp" value="2017-10-03T11:39:50"/>
+    <buildInfo name="build_version" value="10.1.14"/>
+    <buildInfo name="extraction_host" value="MCUSASN02"/>
+    <buildInfo name="extraction_timestamp" value="2017-10-03T11:39:57"/>
+    <asset name="CAFApp.Sample" displayName="Sample" isDeployable="false">
+        <implementation.generic type="CAFApp"/>
+    </asset>
+    <asset name="Portlet.sample___moreview" displayName="MoreView" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.sample___moreoverview" displayName="MoreOverview" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.sample___moreinboxbar" displayName="MoreInboxBar" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.sample___moreinboxresults" displayName="MoreInboxResults" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.sample___anotherview" displayName="AnotherView" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.sample___anotheroverview" displayName="AnotherOverview" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Task.92A30502-8CCA-8DDE-AB9B-DA6958551E1F" displayName="More" isDeployable="false">
+        <implementation.generic type="Task"/>
+    </asset>
+    <asset name="Task.75B7BF25-91D2-9FDA-1B8B-40D3F8FF9049" displayName="Another" isDeployable="false">
+        <implementation.generic type="Task"/>
+    </asset>
+</asset_composite>
